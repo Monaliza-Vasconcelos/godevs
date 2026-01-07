@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Calculadora de Orçamento em Tempo Real</h1>
+        <div id="div1">
+            <input type="checkbox" value="20" name="20" id="20" onclick="calcular(this)">
+            <label for="20">20</label>
+            <input type="checkbox" value="40" name="40" id="40" onclick="calcular(this)">
+            <label for="40">40</label>
+            <input type="checkbox" value="80" name="80" id="80" onclick="calcular(this)">
+            <label for="80">80</label>
+        </div>
+        
+        <div id="div2">
+            <p id="total">Total R$<span>0</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
