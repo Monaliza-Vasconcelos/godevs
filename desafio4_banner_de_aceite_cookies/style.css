@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#banner{
+    display: flex;
+    background-color: #999;
+    width: 70%;
+    height: 100px;
+    position: fixed;
+    bottom: -150px;
+    left: 50%;
+    transform: translateX(-50%); 
+    transition: bottom 1.5s ease;
+}
+
+#btn{
+    width: 20%;
+    height: 30%;
+    position: relative;
+    top: 50px;
+    left: 70%;
+}
